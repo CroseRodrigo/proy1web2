@@ -1,0 +1,17 @@
+.SobreNos {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .SobreNos section {
+    margin-bottom: 20px;
+  }
+  
+  .SobreNos h2, .SobreNos h3 {
+    color: #333;
+  }
+  
+  .SobreNos p {
+    color: #555;
+  }
+  

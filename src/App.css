@@ -1,0 +1,193 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.LogoPrin{
+  width: 175px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+section{
+    background-color: #F5F5F5; /* Color base gris muy claro */
+    background-image: url('../src/assets/Img/fondo1.png'); /* Imagen de textura suave */
+    background-size: cover; /* Ajusta el tamaño de la textura para cubrir toda la pantalla */
+    background-repeat: no-repeat; /* Evita que la textura se repita */
+    background-attachment: fixed; /* Mantiene la textura fija mientras se desplaza la página */
+
+}
+
+.navBg{
+  background-color: #247ba0;
+}
+
+/*-----------------------------------Bodyhome1--------------------------*/
+.bodyhome11 {
+  font-family: Arial, sans-serif;
+  background-color: #2b2b2b;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container11 {
+  padding: 50px;
+}
+
+.highlight {
+  color: #ff5f5f;
+  font-weight: bold;
+}
+
+.signup-btn {
+  background-color: #ff5f5f;
+  color: #ffffff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 20px 0;
+}
+
+.signup-btn:hover {
+  background-color: #e04e4e;
+}
+/*-----------------------------------Body--------------------------*/
+
+.bodyMenu{
+  background-color: #F5F5F5; /* Color base gris muy claro */
+  background-image: url('../src/assets/Img/fondo1.png'); /* Imagen de textura suave */
+  background-size: cover; /* Ajusta el tamaño de la textura para cubrir toda la pantalla */
+  background-repeat: no-repeat; /* Evita que la textura se repita */
+  background-attachment: fixed; /* Mantiene la textura fija mientras se desplaza la página */
+}
+
+
+
+
+/*-----------------------------------carousel--------------------------*/
+
+.carousel-item1{
+  width: 10vh;
+}
+
+/*-----------------------------------Foter--------------------------*/
+.bodyfooter {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  min-height: auto;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  background: #171b20;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 10px 5px;
+  flex-wrap: wrap;
+}
+
+.icon-elem {
+  list-style: none;
+}
+
+.icon {
+  color: white;
+  font-size: 32px;
+  display: inline-block;
+  margin: 0 10px;
+  transition: 0.5s;
+}
+
+.icon:hover {
+  transform: translateY(-10px);
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.menu-elem {
+  list-style: none;
+}
+.menu-icon {
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+  text-decoration: none;
+  margin: 5px 10px;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.menu-icon:hover {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.img-carousel{
+  width: 500px;
+}
+
+/*-----------------------------Biblioteca-------------------*/
+.text-color-red{
+  color: red;
+}
+.text-color-amanecer{
+  color: #e53155;
+}
